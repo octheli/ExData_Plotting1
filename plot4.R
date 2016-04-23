@@ -64,7 +64,7 @@ plot4 <- function() {
   with(powerConsumption, points(datetime, Sub_metering_3,type = "l", col="blue"))
   
 ## Add the legend.  
-  legend("topright", lty = 1, col = c("black", "red", "blue"),
+  legend("topright", lty = 1, col = c("black", "red", "blue"), bty = "n",
          legend = c("Sub_metering_1", "Sub_metering_2", "Sub_metering_3"))
 
 ## Plot the 4th figure at row 2, column 2.
